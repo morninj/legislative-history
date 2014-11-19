@@ -1,3 +1,4 @@
 [
-    {"pk": 5760616295825408, "model": "legislativehistory.legislation", "fields": {"state": "California", "session_year": "2012-2013", "name": "name goes here", "bill_number": "SB 1", "slug": "sb-1"}}
+{"pk": 5760616295825408, "model": "legislativehistory.legislation", "fields": {"state_slug": "california", "session_year": "2012-2013", "name": "name goes here", "state": "California", "bill_number": "SB 1", "bill_number_slug": "sb-1"}}
 ]
+
