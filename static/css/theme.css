@@ -12,6 +12,10 @@ h1 {
     font-weight: normal;
 }
 
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
 h1 a {
     color: #333 !important;
 }
