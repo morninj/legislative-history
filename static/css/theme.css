@@ -1,0 +1,21 @@
+body {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h1 a {
+    color: #333 !important;
+}
+
+nav a {
+    margin-left: 10px;
+}

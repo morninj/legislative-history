@@ -14,7 +14,6 @@ from djangae.settings_base import * #Set up some AppEngine specific stuff
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
@@ -40,6 +39,7 @@ INSTALLED_APPS = (
     'csp',
     'djangae.contrib.gauth',
     'djangae', # Djangae should be after Django core/contrib things
+    'legislativehistory',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -78,6 +78,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates'),
+)
 
 if DEBUG:
     CSP_STYLE_SRC = ("'self'", "'unsafe-inline'")
