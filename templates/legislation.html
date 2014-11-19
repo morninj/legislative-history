@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Legislation</h2>
+
+<!-- TODO improve design -->
+
+<ul>
+{% for l in legislation %}
+    <li>{{ l.name }}</li>
+{% endfor %}
+</ul>
+
+{% endblock content %}
+
